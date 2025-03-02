@@ -1,0 +1,66 @@
+# Visual Studio-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+out/
+
+# Package dependencies
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Logs and temp files
+*.log
+*.tlog
+*.tmp
+*.cache
+
+# Configuration files
+appsettings*.json
+secrets.json
+
+# Resharper & Rider
+*.DotSettings.user
+
+# NuGet
+*.nuget/
+.nuget/
+
+# Entity Framework Migrations
+Migrations/
+
+# Rider & JetBrains
+.idea/
+*.sln.iml
+
+# IIS and Azure
+*.publish.xml
+*.pubxml
+*.pubxml.user
+
+# Coverage & Testing
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.testlog
+
+# Compiled DLLs & PDBs
+*.dll
+*.pdb
+*.exe
+
+# Database files
+*.mdf
+*.ldf
+
+# Local development files
+.env
+*.swp
